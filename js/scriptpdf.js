@@ -2,7 +2,7 @@ window.onload = function() {
 
     async function cargarDatos(){
 
-        const response = await fetch("../../alumnos.json");
+        const response = await fetch("/js/alumnos.json");
         const alumnos = await response.json();
         procesarAlumnos(alumnos);
     }
