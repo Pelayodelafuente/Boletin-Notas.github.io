@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estiloindex.css">
+    <title>Menu principal</title>
+</head>
+<body>
+   
+    <div class="encabezado">
+        <img id="logo" src="./imagenes/logo.png" alt="logo">
+
+        <div id="imagenes">
+            <img id="imagen" src="./imagenes/imagen2.jpg" alt="Imagen 1">
+        </div>
+        
+        <h1>La Laboral</h1>
+    </div>
+
+    <div id="inicio">
+        <video id="video" loop autoplay preload muted>
+            <source src="fondo/numeros.mp4" type='video/mp4;'/>
+        </video>
+    </div>
+
+
+    
+    <div id="presentacion">
+        <a href="./boletines.html"><button>Fichas de los alumnos</button></a>
+    </div>
+
+    
+
+</body>
+
+<script>
+
+    var imagenes = [
+
+        "./imagenes/imagen1.jpg",
+        "./imagenes/imagen2.jpg",
+        "./imagenes/imagen3.jpg"
+    ];
+
+    var indice = 0;
+    var imagen = document.getElementById("imagen");
+
+    function cambiarImagen(){
+
+        imagen.src = imagenes[indice];
+
+        indice++;
+
+        if(indice >= imagenes.length){
+
+            indice = 0;     
+        
+        }
+
+    }
+
+    setInterval(cambiarImagen,3000);
+</script>
+</html>

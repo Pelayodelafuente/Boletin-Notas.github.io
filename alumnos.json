@@ -1,0 +1,104 @@
+
+    [
+        {
+            "nombre": "Pelayo",
+            "apellidos": "de la Fuente Díaz",
+            "edad": 23,
+            "lengua": 9,
+            "matematicas": 7,
+            "ingles": 7,
+            "foto":"foto1.png"
+        },
+
+        {
+            "nombre": "Pedro",
+            "apellidos": "García Menéndez",
+            "edad": 25,
+            "lengua": 5,
+            "matematicas": 6,
+            "ingles": 6,
+            "foto":"foto2.png"
+        },
+
+        {
+            "nombre": "María",
+            "apellidos": "Fernández Pinin",
+            "edad": 27,
+            "lengua": 9,
+            "matematicas": 9,
+            "ingles": 9,
+            "foto":"foto9.png"
+        },
+
+        {
+            "nombre": "Raul",
+            "apellidos": "López Suárez",
+            "edad": 20,
+            "lengua": 5,
+            "matematicas": 5,
+            "ingles": 7,
+            "foto":"foto3.png"
+        },
+
+        {
+            "nombre": "Manuel",
+            "apellidos": "Sánchez García",
+            "edad": 23,
+            "lengua": 6,
+            "matematicas": 8,
+            "ingles": 8,
+            "foto":"foto4.png"
+        },
+
+        {
+            "nombre": "Roberto",
+            "apellidos": "Delgado Vicente",
+            "edad": 27,
+            "lengua": 10,
+            "matematicas": 9,
+            "ingles": 8,
+            "foto":"foto5.png"
+        },
+
+        {
+            "nombre": "Jose",
+            "apellidos": "Vidal Fernández",
+            "edad": 22,
+            "lengua": 7,
+            "matematicas": 7,
+            "ingles": 3,
+            "foto":"foto6.png"
+        },
+
+        {
+            "nombre": "Antonio",
+            "apellidos": "Piñera López",
+            "edad": 19,
+            "lengua": 3,
+            "matematicas": 6,
+            "ingles": 5,
+            "foto":"foto7.png"
+        },
+
+        {
+            "nombre": "Gloria",
+            "apellidos": "Fuertes Rodríguez",
+            "edad": 32,
+            "lengua": 5,
+            "matematicas": 9,
+            "ingles": 7,
+            "foto":"foto10.png"
+        },
+
+        {
+            "nombre": "Pepe",
+            "apellidos": "Aguado Gutiérrez",
+            "edad": 27,
+            "lengua": 5,
+            "matematicas": 5,
+            "ingles": 7,
+            "foto":"foto8.png"
+        }
+
+    ]
+
