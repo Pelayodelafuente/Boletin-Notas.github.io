@@ -71,7 +71,7 @@ window.onload = function() {
 
     }
 
-       const seleccionaAsignatura = document.getElementById('asignaturas');
+       const seleccionaAsignatura = document.getElementById('asignaturass');
        const verNotas = document.getElementById('ver-notas');
        const fichaAlumno = document.getElementById('fichaAlumno');
 
